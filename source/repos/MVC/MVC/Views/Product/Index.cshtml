@@ -1,0 +1,16 @@
+﻿@model IEnumerable<MVC.Models.Product>
+
+<h1>Product List</h1>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+    </tr>
+    @foreach (var i in Model)
+    {
+        <tr>
+            <td>@i.Name</td>
+            <td>@i.Price</td>
+        </tr>
+    }
+</table>
