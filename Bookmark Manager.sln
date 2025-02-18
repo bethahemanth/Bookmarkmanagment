@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.35806.103
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookmark Manager", "Bookmark Manager\Bookmark Manager.csproj", "{DBCC327F-7201-413D-B0CD-1F6B837B5403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{360208E8-83E8-4659-909E-330092E8B64A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{D9B80BC8-2F4B-4822-9225-55E825DB45A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{B096BB1D-BAFB-443A-B2A1-C91970220F78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{627623A0-2C41-4309-96CF-37EF768D57E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8A7F1246-6449-42A9-BE0A-C0178369A9B4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBCC327F-7201-413D-B0CD-1F6B837B5403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCC327F-7201-413D-B0CD-1F6B837B5403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCC327F-7201-413D-B0CD-1F6B837B5403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCC327F-7201-413D-B0CD-1F6B837B5403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{360208E8-83E8-4659-909E-330092E8B64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360208E8-83E8-4659-909E-330092E8B64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360208E8-83E8-4659-909E-330092E8B64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360208E8-83E8-4659-909E-330092E8B64A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B80BC8-2F4B-4822-9225-55E825DB45A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B80BC8-2F4B-4822-9225-55E825DB45A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B80BC8-2F4B-4822-9225-55E825DB45A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B80BC8-2F4B-4822-9225-55E825DB45A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B096BB1D-BAFB-443A-B2A1-C91970220F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B096BB1D-BAFB-443A-B2A1-C91970220F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B096BB1D-BAFB-443A-B2A1-C91970220F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B096BB1D-BAFB-443A-B2A1-C91970220F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{627623A0-2C41-4309-96CF-37EF768D57E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{627623A0-2C41-4309-96CF-37EF768D57E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{627623A0-2C41-4309-96CF-37EF768D57E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{627623A0-2C41-4309-96CF-37EF768D57E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {211CFBBD-6BBC-420A-8A37-5C0329A1FCBF}
+	EndGlobalSection
+EndGlobal
